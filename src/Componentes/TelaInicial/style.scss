@@ -1,0 +1,19 @@
+@import '../../styles/variaveis.scss';
+
+.lista-de-bolinhas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5dvh;
+}
+
+.lista-de-bolinhas>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: $amarelo-claro;
+    margin: auto 5dvw;
+}

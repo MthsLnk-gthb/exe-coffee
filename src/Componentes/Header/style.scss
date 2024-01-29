@@ -1,0 +1,14 @@
+@import '../../styles/variaveis.scss';
+
+header{
+    width: 100%;
+    height: 10dvh;
+    background-color: $marrom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>h1{
+    color: $branco-marrom;
+}

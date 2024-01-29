@@ -1,6 +1,10 @@
+import './style.scss'
+
 const Header = () => {
   return (
-    <header>Header</header>
+    <header>
+      <h1>Exe Coffee☕</h1>
+    </header>
   )
 }
 

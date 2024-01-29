@@ -1,0 +1,16 @@
+@import '../../styles/variaveis.scss';
+
+.select-filtros{
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: none;
+    color: $amarelo-queimado;
+    font-size: 1.2rem;
+    margin-top: 2dvh;
+}
+
+.select-filtros>option{
+    background-color: $marrom;
+}

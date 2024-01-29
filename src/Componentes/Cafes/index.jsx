@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.scss";
 import cafes from "../../data/cafes";
 import { useState } from "react";
 import Filtros from "../Filtros";
@@ -33,7 +33,10 @@ const Cafes = () => {
 
   return (
     <>
-      <Filtros onChangeOrdenacao={handleChangeOrdenacao} />
+    <section className="nome-e-filtro">
+        <h1>Cafés</h1>
+        <Filtros onChangeOrdenacao={handleChangeOrdenacao} />
+    </section>
       <main className="lista-de-cafes">
         {cafesOrdenados.map((cafe, index) => {
           return (

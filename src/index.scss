@@ -1,11 +1,13 @@
-:root {
-  background-image: radial-gradient(#915d11, #30180e);
-}
+@import './../src/styles/variaveis.scss';
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: $preto-01;
 }
 

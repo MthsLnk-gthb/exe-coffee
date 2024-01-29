@@ -1,9 +1,12 @@
+import Header from "./Componentes/Header"
+import Inicio from "./Pages/Inicio"
 import ListaDeCafes from "./Pages/ListaDeCafes"
 
 function App() {
   return (
   <main className="App">
-    <ListaDeCafes/>
+    <Header/>
+    <Inicio/>
   </main>    
   )
 }

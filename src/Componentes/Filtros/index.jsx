@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 
 const Filtros = ({ onChangeOrdenacao }) => {
   const handleSelectChange = (e) => {
@@ -7,7 +7,7 @@ const Filtros = ({ onChangeOrdenacao }) => {
 
   return (
     <select className='select-filtros' onChange={handleSelectChange}>
-        <option value="nenhumFiltro">Nenhum Filtro</option>
+      <option value="nenhumFiltro">Nenhum Filtro</option>
       <option value="menorPreco">Menor Preço</option>
       <option value="maiorPreco">Maior Preço</option>
       <option value="tipoCafe">Cafés</option>

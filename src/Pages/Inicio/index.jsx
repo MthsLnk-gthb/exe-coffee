@@ -1,6 +1,10 @@
+import TelaInicial from "../../Componentes/TelaInicial"
+
 const Inicio = () => {
   return (
-    <main>Inicio</main>
+    <main>
+      <TelaInicial/>
+    </main>
   )
 }
 
